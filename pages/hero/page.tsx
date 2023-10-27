@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <div className="home-img">
           <div className="computer-animation"></div>
-          <img className="hero-img" src="/perfil.png" />
+          <img className="hero-img" src="/perfil.png" alt="Dorcas Image" />
         </div>
       </div>
       <div className="home-social">
@@ -38,21 +38,21 @@ const Hero = () => {
           target="_blank"
           className="home-social-icon"
         >
-          <i className="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin" data-testid="linkedin-icon"></i>
         </a>
         <a
           href="https://www.twitter.com/Dorcas_BD"
           target="_blank"
           className="home-social-icon"
         >
-          <i className="fab fa-twitter"></i>
+          <i className="fab fa-twitter" data-testid="twitter-icon"></i>
         </a>
         <a
           href="https://www.github.com/Dorcas-BD"
           target="_blank"
           className="home-social-icon"
         >
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github" data-testid="github-icon"></i>
         </a>
       </div>
     </section>
